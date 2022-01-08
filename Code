@@ -1,0 +1,14 @@
+--------------------------------------------------Learning Built In Functions------------------------------------------------------
+
+Destroy a part!
+game.Workspace.Part:Destroy()
+
+Clone a Part
+local myclone = game.Workspace.Part:Clone()
+myclone.Parent = game.Workspace
+
+ClearAllChildrean
+
+game.Workspace.Part:ClearAllChildren()
+
+(Only Works In Roblox Studio!)
